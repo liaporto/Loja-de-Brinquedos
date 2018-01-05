@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Loja_de_Brinquedos___IN204__Nº_22
+namespace Loja_de_Brinquedos_IN204_Nº_22
 {
     static class Program
     {

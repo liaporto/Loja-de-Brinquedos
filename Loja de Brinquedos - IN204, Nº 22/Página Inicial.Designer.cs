@@ -1,4 +1,4 @@
-﻿namespace Loja_de_Brinquedos___IN204__Nº_22
+﻿namespace Loja_de_Brinquedos_IN204_Nº_22
 {
     partial class frmInicio
     {
@@ -28,109 +28,165 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.mstrpMenu = new System.Windows.Forms.MenuStrip();
-            this.cadastrarClienteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.cadastrarProdutoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.registrarVendaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.cadastrarProdutoToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.visualizarEstoqueToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.registrarVendaToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.históricoDeVendasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.mstrpMenu.SuspendLayout();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmInicio));
+            this.btnCadastroCliente = new System.Windows.Forms.Button();
+            this.btnVisualizaCliente = new System.Windows.Forms.Button();
+            this.btnCadastroProduto = new System.Windows.Forms.Button();
+            this.btnVisualizaEstoque = new System.Windows.Forms.Button();
+            this.btnRegistraVenda = new System.Windows.Forms.Button();
+            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
+            this.btnRelatorio = new System.Windows.Forms.Button();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.flowLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
-            // mstrpMenu
+            // btnCadastroCliente
             // 
-            this.mstrpMenu.Dock = System.Windows.Forms.DockStyle.None;
-            this.mstrpMenu.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.cadastrarClienteToolStripMenuItem,
-            this.cadastrarProdutoToolStripMenuItem,
-            this.registrarVendaToolStripMenuItem});
-            this.mstrpMenu.LayoutStyle = System.Windows.Forms.ToolStripLayoutStyle.HorizontalStackWithOverflow;
-            this.mstrpMenu.Location = new System.Drawing.Point(0, -1);
-            this.mstrpMenu.Name = "mstrpMenu";
-            this.mstrpMenu.Size = new System.Drawing.Size(322, 24);
-            this.mstrpMenu.TabIndex = 0;
-            this.mstrpMenu.Text = "mstrpMenu";
-            this.mstrpMenu.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.menuStrip1_ItemClicked);
+            this.btnCadastroCliente.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.btnCadastroCliente.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCadastroCliente.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCadastroCliente.Location = new System.Drawing.Point(3, 7);
+            this.btnCadastroCliente.Name = "btnCadastroCliente";
+            this.btnCadastroCliente.Size = new System.Drawing.Size(108, 23);
+            this.btnCadastroCliente.TabIndex = 2;
+            this.btnCadastroCliente.Text = "Cadastrar Cliente";
+            this.btnCadastroCliente.UseVisualStyleBackColor = false;
+            this.btnCadastroCliente.Click += new System.EventHandler(this.btnCadastroCliente_Click);
             // 
-            // cadastrarClienteToolStripMenuItem
+            // btnVisualizaCliente
             // 
-            this.cadastrarClienteToolStripMenuItem.Name = "cadastrarClienteToolStripMenuItem";
-            this.cadastrarClienteToolStripMenuItem.Size = new System.Drawing.Size(109, 20);
-            this.cadastrarClienteToolStripMenuItem.Text = "Cadastrar Cliente";
-            this.cadastrarClienteToolStripMenuItem.Click += new System.EventHandler(this.cadastrarClienteToolStripMenuItem_Click);
+            this.btnVisualizaCliente.BackColor = System.Drawing.Color.SteelBlue;
+            this.btnVisualizaCliente.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnVisualizaCliente.Location = new System.Drawing.Point(3, 65);
+            this.btnVisualizaCliente.Name = "btnVisualizaCliente";
+            this.btnVisualizaCliente.Size = new System.Drawing.Size(108, 23);
+            this.btnVisualizaCliente.TabIndex = 3;
+            this.btnVisualizaCliente.Text = "Visualizar Cliente";
+            this.btnVisualizaCliente.UseVisualStyleBackColor = false;
+            this.btnVisualizaCliente.Click += new System.EventHandler(this.btnVisualizaCliente_Click);
             // 
-            // cadastrarProdutoToolStripMenuItem
+            // btnCadastroProduto
             // 
-            this.cadastrarProdutoToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.cadastrarProdutoToolStripMenuItem1,
-            this.visualizarEstoqueToolStripMenuItem});
-            this.cadastrarProdutoToolStripMenuItem.Name = "cadastrarProdutoToolStripMenuItem";
-            this.cadastrarProdutoToolStripMenuItem.Size = new System.Drawing.Size(62, 20);
-            this.cadastrarProdutoToolStripMenuItem.Text = "Produto";
-            this.cadastrarProdutoToolStripMenuItem.Click += new System.EventHandler(this.cadastrarProdutoToolStripMenuItem_Click);
+            this.btnCadastroProduto.BackColor = System.Drawing.Color.Green;
+            this.btnCadastroProduto.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCadastroProduto.Location = new System.Drawing.Point(3, 36);
+            this.btnCadastroProduto.Name = "btnCadastroProduto";
+            this.btnCadastroProduto.Size = new System.Drawing.Size(108, 23);
+            this.btnCadastroProduto.TabIndex = 4;
+            this.btnCadastroProduto.Text = "Cadastrar Produto";
+            this.btnCadastroProduto.UseVisualStyleBackColor = false;
+            this.btnCadastroProduto.Click += new System.EventHandler(this.btnCadastroProduto_Click);
             // 
-            // registrarVendaToolStripMenuItem
+            // btnVisualizaEstoque
             // 
-            this.registrarVendaToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.registrarVendaToolStripMenuItem1,
-            this.históricoDeVendasToolStripMenuItem});
-            this.registrarVendaToolStripMenuItem.Name = "registrarVendaToolStripMenuItem";
-            this.registrarVendaToolStripMenuItem.Size = new System.Drawing.Size(51, 20);
-            this.registrarVendaToolStripMenuItem.Text = "Venda";
-            this.registrarVendaToolStripMenuItem.Click += new System.EventHandler(this.registrarVendaToolStripMenuItem_Click);
+            this.btnVisualizaEstoque.BackColor = System.Drawing.Color.Gold;
+            this.btnVisualizaEstoque.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnVisualizaEstoque.Location = new System.Drawing.Point(3, 94);
+            this.btnVisualizaEstoque.Name = "btnVisualizaEstoque";
+            this.btnVisualizaEstoque.Size = new System.Drawing.Size(108, 23);
+            this.btnVisualizaEstoque.TabIndex = 5;
+            this.btnVisualizaEstoque.Text = "Visualizar Estoque";
+            this.btnVisualizaEstoque.UseVisualStyleBackColor = false;
+            this.btnVisualizaEstoque.Click += new System.EventHandler(this.btnVisualizaEstoque_Click);
             // 
-            // cadastrarProdutoToolStripMenuItem1
+            // btnRegistraVenda
             // 
-            this.cadastrarProdutoToolStripMenuItem1.Name = "cadastrarProdutoToolStripMenuItem1";
-            this.cadastrarProdutoToolStripMenuItem1.Size = new System.Drawing.Size(170, 22);
-            this.cadastrarProdutoToolStripMenuItem1.Text = "Cadastrar Produto";
+            this.btnRegistraVenda.BackColor = System.Drawing.Color.OrangeRed;
+            this.btnRegistraVenda.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnRegistraVenda.Location = new System.Drawing.Point(3, 123);
+            this.btnRegistraVenda.Name = "btnRegistraVenda";
+            this.btnRegistraVenda.Size = new System.Drawing.Size(108, 23);
+            this.btnRegistraVenda.TabIndex = 6;
+            this.btnRegistraVenda.Text = "Registrar Venda";
+            this.btnRegistraVenda.UseVisualStyleBackColor = false;
+            this.btnRegistraVenda.Click += new System.EventHandler(this.btnRegistraVenda_Click);
             // 
-            // visualizarEstoqueToolStripMenuItem
+            // flowLayoutPanel1
             // 
-            this.visualizarEstoqueToolStripMenuItem.Name = "visualizarEstoqueToolStripMenuItem";
-            this.visualizarEstoqueToolStripMenuItem.Size = new System.Drawing.Size(170, 22);
-            this.visualizarEstoqueToolStripMenuItem.Text = "Visualizar Estoque";
+            this.flowLayoutPanel1.BackColor = System.Drawing.Color.Gold;
+            this.flowLayoutPanel1.Controls.Add(this.btnCadastroCliente);
+            this.flowLayoutPanel1.Controls.Add(this.btnCadastroProduto);
+            this.flowLayoutPanel1.Controls.Add(this.btnVisualizaCliente);
+            this.flowLayoutPanel1.Controls.Add(this.btnVisualizaEstoque);
+            this.flowLayoutPanel1.Controls.Add(this.btnRegistraVenda);
+            this.flowLayoutPanel1.Controls.Add(this.btnRelatorio);
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(202, 127);
+            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
+            this.flowLayoutPanel1.Padding = new System.Windows.Forms.Padding(0, 4, 0, 0);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(115, 194);
+            this.flowLayoutPanel1.TabIndex = 7;
             // 
-            // registrarVendaToolStripMenuItem1
+            // btnRelatorio
             // 
-            this.registrarVendaToolStripMenuItem1.Name = "registrarVendaToolStripMenuItem1";
-            this.registrarVendaToolStripMenuItem1.Size = new System.Drawing.Size(178, 22);
-            this.registrarVendaToolStripMenuItem1.Text = "Registrar Venda";
+            this.btnRelatorio.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.btnRelatorio.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnRelatorio.Location = new System.Drawing.Point(3, 152);
+            this.btnRelatorio.Name = "btnRelatorio";
+            this.btnRelatorio.Size = new System.Drawing.Size(108, 23);
+            this.btnRelatorio.TabIndex = 8;
+            this.btnRelatorio.Text = "Gerar Relatório";
+            this.btnRelatorio.UseVisualStyleBackColor = false;
+            this.btnRelatorio.Click += new System.EventHandler(this.btnRelatorio_Click_1);
             // 
-            // históricoDeVendasToolStripMenuItem
+            // label2
             // 
-            this.históricoDeVendasToolStripMenuItem.Name = "históricoDeVendasToolStripMenuItem";
-            this.históricoDeVendasToolStripMenuItem.Size = new System.Drawing.Size(178, 22);
-            this.históricoDeVendasToolStripMenuItem.Text = "Histórico de Vendas";
+            this.label2.BackColor = System.Drawing.Color.Gold;
+            this.label2.Font = new System.Drawing.Font("Harlow Solid Italic", 21.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.Black;
+            this.label2.Location = new System.Drawing.Point(81, 40);
+            this.label2.Name = "label2";
+            this.label2.Padding = new System.Windows.Forms.Padding(28, 3, 23, 3);
+            this.label2.Size = new System.Drawing.Size(358, 44);
+            this.label2.TabIndex = 8;
+            this.label2.Text = "Empório dos Brinquedos ";
+            this.label2.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.label2.Click += new System.EventHandler(this.label2_Click);
+            // 
+            // label1
+            // 
+            this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(208)))), ((int)(((byte)(10)))));
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(357, 323);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(160, 38);
+            this.label1.TabIndex = 9;
+            this.label1.Text = "Nº 22, Turma IN204";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // frmInicio
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(443, 261);
-            this.Controls.Add(this.mstrpMenu);
-            this.MainMenuStrip = this.mstrpMenu;
+            this.BackColor = System.Drawing.Color.DeepPink;
+            this.BackgroundImage = global::Loja_de_Brinquedos_IN204_Nº_22.Properties.Resources.lego_bg_yellow;
+            this.ClientSize = new System.Drawing.Size(522, 359);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.flowLayoutPanel1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximizeBox = false;
             this.Name = "frmInicio";
             this.Text = "Página Inicial";
-            this.mstrpMenu.ResumeLayout(false);
-            this.mstrpMenu.PerformLayout();
+            this.Load += new System.EventHandler(this.frmInicio_Load);
+            this.flowLayoutPanel1.ResumeLayout(false);
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
 
-        private System.Windows.Forms.MenuStrip mstrpMenu;
-        private System.Windows.Forms.ToolStripMenuItem cadastrarClienteToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem cadastrarProdutoToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem registrarVendaToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem cadastrarProdutoToolStripMenuItem1;
-        private System.Windows.Forms.ToolStripMenuItem visualizarEstoqueToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem registrarVendaToolStripMenuItem1;
-        private System.Windows.Forms.ToolStripMenuItem históricoDeVendasToolStripMenuItem;
+        private System.Windows.Forms.Button btnCadastroCliente;
+        private System.Windows.Forms.Button btnVisualizaCliente;
+        private System.Windows.Forms.Button btnCadastroProduto;
+        private System.Windows.Forms.Button btnVisualizaEstoque;
+        private System.Windows.Forms.Button btnRegistraVenda;
+        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Button btnRelatorio;
+        private System.Windows.Forms.Label label1;
     }
 }
 

@@ -1,22 +1,16 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Data;
+﻿using System.Data;
 using MySql.Data.MySqlClient;
 
-namespace Loja_de_Brinquedos___IN204__Nº_22
+namespace Loja_de_Brinquedos_IN204_Nº_22
 {
     class BDLP
     {
         private MySqlConnection bdConn;
-
         public bool Conecta()
         {
             bool retorno = true;
 
-            bdConn = new MySqlConnection("server=localhost;database=bdlp;uid=root;pwd=''");
+            bdConn = new MySqlConnection("server=localhost;database=bdlp;uid=root;pwd='';ConvertZeroDateTime='true'");
             try
             {
                 bdConn.Open();
@@ -99,4 +93,4 @@ namespace Loja_de_Brinquedos___IN204__Nº_22
     }
 
     }
-}
+
