@@ -4,5 +4,5 @@
 do Colégio Pedro II - Tijuca II.</h3>
 
 <p>O projeto Loja de Brinquedos tem como objetivo integrar a programção em C# e o desenvolvimento de aplicações
-com Windows Forms com o estudo de banco de dados através do MySQL, criando uma aplicação que permite o cadastro e edição
+com Windows Forms com o estudo de banco de dados feito com MySQL, criando uma aplicação que permite o cadastro e edição
 de clientes, produtos e vendas, além da exibição de um relatório de venda por produto através do programa FastReport.</p>
