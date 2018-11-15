@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report ScriptLanguage="CSharp" ReportInfo.Created="12/18/2017 18:26:17" ReportInfo.Modified="12/20/2017 10:26:00" ReportInfo.CreatorVersion="2017.4.6.0">
+  <Dictionary/>
+  <ReportPage Name="Page1">
+    <ReportTitleBand Name="ReportTitle1" Width="718.2" Height="141.75">
+      <TextObject Name="lblTitulo" Left="264.6" Top="56.7" Width="141.75" Height="18.9" Text="Relatório de Venda" HorzAlign="Center" Font="Arial Narrow, 12pt, style=Bold"/>
+      <TextObject Name="txtNomeBrinq" Left="236.25" Top="85.05" Width="198.45" Height="37.8" HorzAlign="Center" Font="Arial, 12pt, style=Bold"/>
+      <TextObject Name="txtNomeLoja" Left="179.55" Top="9.45" Width="321.3" Height="37.8" Text="Empório dos Brinquedos" HorzAlign="Center" Font="Harlow Solid Italic, 21.75pt, style=Italic"/>
+    </ReportTitleBand>
+    <PageHeaderBand Name="PageHeader1" Top="145.75" Width="718.2" Height="47.25">
+      <TextObject Name="lblNomecliente" Left="66.15" Width="94.5" Height="37.8" Text="Nome do Cliente" HorzAlign="Center" Font="Arial Narrow, 11.25pt, style=Bold"/>
+      <TextObject Name="lblData" Left="302.4" Width="94.5" Height="37.8" Text="Data da Venda" HorzAlign="Center" Font="Arial Narrow, 11.25pt, style=Bold"/>
+      <TextObject Name="lblQuantidade" Left="519.75" Width="94.5" Height="37.8" Text="Quantidade" HorzAlign="Center" Font="Arial Narrow, 11.25pt, style=Bold"/>
+    </PageHeaderBand>
+    <DataBand Name="Data1" Top="197" Width="718.2" Height="217.35">
+      <TextObject Name="txtNomeCliente" Left="66.15" Top="18.9" Width="94.5" Height="179.55" HorzAlign="Center"/>
+      <TextObject Name="txtdataVenda" Left="302.4" Top="18.9" Width="94.5" Height="179.55" HorzAlign="Center"/>
+      <TextObject Name="txtqtd" Left="519.75" Top="18.9" Width="94.5" Height="179.55" HorzAlign="Center"/>
+    </DataBand>
+    <PageFooterBand Name="PageFooter1" Top="418.35" Width="718.2" Height="18.9"/>
+  </ReportPage>
+</Report>
