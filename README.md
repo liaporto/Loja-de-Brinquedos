@@ -1,9 +1,8 @@
 # Loja de Brinquedos
 
-<h3>Projeto desenvolvido para a avaliação do 3º Trimestre do 2º ano do Ensino Médio - Técnico em Informática, 
-do Colégio Pedro II - Tijuca II.</h3>
+### Projeto desenvolvido para a avaliação do 3º Trimestre do 2º ano do Ensino Médio Técnico em Informática, do Colégio Pedro II - Tijuca II.
 
-O arquivo executável está localizado em: Loja de Brinquedos - IN204, Nº 22/bin/Debug/Loja_de_Brinquedos_IN204_Nº_22.exe
+O arquivo executável está localizado em: [Loja de Brinquedos - IN204, Nº 22/bin/Debug/Loja_de_Brinquedos_IN204_Nº_22.exe](Loja_de_Brinquedos_IN204_Nº_22.exe)
 
 O download e a execução adequada do arquivo bdlp.sql são necessários para o funcionamento correto do programa.
 
